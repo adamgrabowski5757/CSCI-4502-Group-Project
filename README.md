@@ -33,6 +33,14 @@ After experimenting with building our own Apriori algorithm, we came across a we
 
 Included in the notebook at many examples of running the algorithm on different subsets of the data with different support and confidence requirements. If you wish to rererun with different values, just change them and reload the cell.
 
+Running Bayesian Classifers:
+
+There are three BC python files, 'BCtime.py', 'BCcolor.py', and 'BCviolation.py'. They should be able to run from command line with ex: "python3 BCtime.py". Otherwise just run the scripts in a python 3 editor. At the bottom of each script is a call to the function "Bayes()". It takes 3 arguments that are different for each script. (essentially the 4 main attributes minus the one thats being predicted). What is returned is the top three predicted values for the given permutation you have run.
+
+Tableau:
+
+Download the most recent Tableau if you would like to view the visualizations. Download from our Github repository "TABLEAU-VIZ.twb". The visualiztions utilize parkingAltered.csv so that will need to be loaded into Tableau as well.
+
 
 Link to Video Presentation:
 https://drive.google.com/file/d/1P50u08K0x_3RDAdeduiwWNrU1O8nZNrT/view?ts=5c16f020
